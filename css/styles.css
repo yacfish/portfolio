@@ -172,6 +172,7 @@ footer{
     display:inline-block;
     color:rgb(224, 23, 23);
     padding:15px 25px;
+    background:rgba(255, 255, 255, 0.335);
     border:3px solid #fff;
     border-radius:30px;
     transition:.5s ease all
