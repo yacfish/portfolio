@@ -214,8 +214,11 @@ footer{
     height:100vh;
     min-height:500px;
     max-height:1080px;
-     background:url(../images/yac.jpg);
-    background-size:cover;
+    background:url(../images/yac.jpg);
+    background-position: 50% 20%;
+    background-size:fixed;
+    background-repeat: repeat-x;
+
     padding:15px;
     overflow:hidden
 }
@@ -248,10 +251,10 @@ footer{
     position:absolute;
     height:100%;
     width:100%;
-    top:0;
-    right:0;
-    bottom:0;
-    left:0;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;;
+    left: 0px;
     background:rgba(255, 129, 19, 0.754);
     z-index:1
 }
