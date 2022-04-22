@@ -38,6 +38,9 @@ body.active{
     0%{
         transform:translateY(-100%)
     }
+    25%{
+        transform:translateY(-100%)
+    }
     100%{
         transform:translateY(0)
     }
@@ -52,7 +55,7 @@ header{
     animation-name:dropHeader;
     animation-iteration-count:1;
     animation-timing-function:ease;
-    animation-duration:0.75s
+    animation-duration:2.5s
 }
 header ul{
     display:inline-block;
@@ -175,7 +178,7 @@ footer{
     background:rgba(255, 255, 255, 0.335);
     border:3px solid #fff;
     border-radius:30px;
-    transition:.5s ease all
+    transition:2s ease all
 }
 .btn-rounded-white:hover{
     color:#db3434;
@@ -212,11 +215,11 @@ footer{
 #lead{
     position:relative;
     height:100vh;
-    min-height:500px;
+    min-height:100px;
     max-height:1080px;
     background:url(../images/yacmax_01.jpg),url(../images/yacmax_02.jpg),url(../images/yacmax_03.jpg),url(../images/yacmax_04.jpg),url(../images/yacmax_05.jpg),url(../images/yacmax_06.jpg),url(../images/yacmax_07.jpg),url(../images/yacmax_08.jpg),url(../images/yacmax_09.jpg),url(../images/yacmax_10.jpg);
     background-position: 50% 0px, 50% 108px, 50% 216px, 50% 324px, 50% 432px, 50% 540px, 50% 648px, 50% 756px, 50% 864px, 50% 972px;
-    background-size:fixed;
+    background-size: 932px 108px;
     background-repeat: repeat-x;
 
     padding:15px;
@@ -615,7 +618,7 @@ footer{
 .optional-section-block ul{
     padding:0 0 0 15px
 }
-@media only screen and (max-width: 750px){
+@media only screen and (max-width: 700px){
     #experience-timeline:before,#experience-timeline:after{
         left:23px
     }
@@ -634,7 +637,8 @@ footer{
         margin-left:70px
     }
 }
-@media only screen and (max-width: 992px){
+/* @media only screen and (max-width: 992px){  */
+@media only screen and (max-width: 500px){ 
     #lead{
         height:auto;
         min-height:auto;
@@ -660,7 +664,7 @@ footer{
         text-align:left
     }
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 400px){
     header{
         position:fixed;
         display:none;
@@ -715,7 +719,7 @@ footer{
         text-align:center
     }
 }
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 400px){
     #lead-content h1{
         font-size:1.5em
     }
