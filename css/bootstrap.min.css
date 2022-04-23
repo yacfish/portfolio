@@ -3,7 +3,7 @@
 /*! * Bootstrap v3.3.7 (http://getbootstrap.com) * Copyright 2011-2016 Twitter, Inc. * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html{
-    font-family:sans-serif;
+    font-family:"Helvetica Neue";
     -ms-text-size-adjust:100%;
     -webkit-text-size-adjust:100%
 }
@@ -164,7 +164,8 @@ html{
     -webkit-tap-highlight-color:rgba(0,0,0,0)
 }
 body{
-    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    /* font-family:"Helvetica Neue",Helvetica,Arial,sans-serif; */
+    font-family:"Helvetica Neue","Helvetica Neue","Helvetica Neue","Helvetica Neue";
     font-size:14px;
     line-height:1.42857143;
     color:#333;
