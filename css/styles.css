@@ -94,7 +94,8 @@ header.sticky{
     z-index:999
 }
 #menu.active{
-    display:block
+    display:block;
+    transform:translateY(-100%)
 }
 #mobile-menu-open{
     display:none;
