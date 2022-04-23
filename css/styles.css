@@ -87,15 +87,15 @@ header a:focus{
     text-decoration:none
 }
 header.active{
-    display:block
+    display:block;
+    transform:translateY(0%)
 }
 header.sticky{
     position:fixed;
     z-index:999
 }
 #menu.active{
-    display:block;
-    transform:translateY(-100%)
+    display:block
 }
 #mobile-menu-open{
     display:none;
