@@ -89,6 +89,7 @@ header a:focus{
 header.active{
     display:block;
     transform:translateY(0%)
+
 }
 header.sticky{
     position:fixed;
@@ -406,7 +407,7 @@ footer{
 #education{
     background:url(../images/noise_v_01.png), url(../images/noise_v_02.png), url(../images/noise_v_03.png), url(../images/noise_v_04.png), url(../images/noise_v_05.png), url(../images/noise_v_06.png), url(../images/noise_v_07.png), url(../images/noise_v_08.png), url(../images/noise_v_09.png), url(../images/noise_v_10.png), url(../images/noise_v_11.png), url(../images/noise_v_12.png), url(../images/noise_v_13.png), url(../images/noise_v_14.png), url(../images/noise_v_15.png), url(../images/noise_v_16.png), url(../images/noise_v_17.png), url(../images/noise_v_18.png), url(../images/noise_v_19.png), url(../images/noise_v_20.png);
     background-position: 0% 50%, 5.263158% 50%, 10.526316% 50%, 15.789474% 50%, 21.052632% 50%, 26.315789% 50%, 31.578947% 50%, 36.842105% 50%, 42.105263% 50%, 47.368421% 50%, 52.631579% 50%, 57.894737% 50%, 63.157895% 50%, 68.421053% 50%, 73.684211% 50%, 78.947368% 50%, 84.210526% 50%, 89.473684% 50%, 94.736842% 50%, 100% 50%;
-    background-size: 5.1% 256px;
+    background-size: 8px 256px; /*5.15%*/
     background-repeat: repeat-y;
     padding:50px 15px 20px 15px;
     border-bottom:1px solid #dcd9d9;
@@ -423,10 +424,10 @@ footer{
     border:1px solid #dcd9d900;
     text-align:left;
 
-    background:url(../images/noise_h_01.png), url(../images/noise_h_02.png), url(../images/noise_h_03.png);
+    background:url(../images/noise_h_01.png), url(../images/noise_h_02.png), url(../images/white.png);
 
-    background-position: 50% 0%,  50% 50%, 50% 100%;
-    background-size: 256px 33.5%;
+    background-position: 50% 0%,  50% 100%, 50% 50%;
+    background-size: 256px 5%, 256px 5%, 100% 90%; /*33.5%*/
     background-repeat: repeat-x;
     /* transform: rotate(1deg) */
 }
