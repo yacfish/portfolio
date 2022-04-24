@@ -251,14 +251,22 @@ hr{
     padding-left:15px;
     padding-right:15px
 }
-@media (min-width:800px){
+@media (min-width:850px){
     .container{
-        width:760px
+        width:800px
+    }
+    #about p{
+        /* background-color: #78d8fe; */
+        margin-left: 50px;
     }
 }
 @media (min-width:992px){
     .container{
-        width:900px
+        width:950px
+    }
+    #about p{
+        /* background-color: #a578fe; */
+        margin-left: 50px;
     }
 }
 @media (min-width:1200px){

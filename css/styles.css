@@ -167,6 +167,19 @@ footer{
     font-size:1.25em;
     list-style:none
 }
+.social2 li{
+    text-align: center;
+    display:inline-block;
+    font-size:2.25em;
+    list-style:none;
+    margin: 5px;
+}
+.social2 a{
+    padding: 0 0;
+}
+.social2 ul{
+    padding-inline-start: 0px;
+}
 .social a{
     display:block;
     color:#ff5e00;
@@ -225,13 +238,13 @@ footer{
 
             transform: translateX(0) translateY(0);
     }
-    12% {
+    2% {
 
             box-shadow: 2px -2px #2f576b, 2px -2px #2f576b, 2px -2px #2f576b, 2px -2px #2f576b, 2px -2px #2f576b, 2px -2px #2f576b, 2px -2px #2f576b, 2px -2px #2f576b;
 
             transform: translateX(0) translateY(0);
     }
-    15% {
+    5% {
 
             box-shadow: 2px -2px #2f576b, 2px -2px #2f576b, 3px -3px #2f576b, 4px -4px #2f576b, 5px -5px #2f576b, 6px -6px #2f576b, 7px -7px #2f576b, 8px -8px #2f576b;
 
@@ -353,14 +366,17 @@ footer{
 }
 #about{
     padding:100px 15px;
-    border-bottom:1px solid #dcd9d9
+    border-bottom:1px solid #dcd9d9;
+    animation-delay: 0;
+    /* background-color: #fe95d2; */
+  
 }
 #about h2{
     color:rgba(252, 58, 10, 0.824);
 }
 #about p{
     color:#74808a;
-    margin:0
+    margin-right: 50px;
 }
 #experience{
     padding:50px 15px;
@@ -461,11 +477,12 @@ footer{
     background-repeat: repeat-y;
     padding:50px 15px 20px 15px;
     border-bottom:1px solid #dcd9d9;
-    text-align:center
+    text-align:center;
 }
 #education h2{
     color:rgba(252, 58, 10, 0.824);
-    margin-bottom:50px
+    margin-bottom:50px;
+    animation-delay: 7.5;
 }
 .education-block{
     max-width:700px;
@@ -508,11 +525,13 @@ footer{
 #projects{
     padding:50px 15px;
     border-bottom:1px solid #dcd9d9;
-    text-align:center
+    text-align:center;
+
 }
 #projects h2{
     color:rgba(252, 58, 10, 0.824);
-    margin-bottom:50px
+    margin-bottom:50px;
+    animation-delay: 2.5s;
 
 }
 .project{
@@ -564,11 +583,13 @@ footer{
     padding:50px 15px;
     text-align:center;
     border-bottom:1px solid #c0c0c0;
-    background:#ffc21a73
+    background:#ffc21a73;
+    
 }
 #skills h2{
     color:rgba(252, 58, 10, 0.824);
-    margin-bottom:50px
+    margin-bottom:50px;
+    animation-delay: 5;
 }
 #skills ul h3{
     position:absolute;
@@ -735,25 +756,7 @@ footer{
 .optional-section-block ul{
     padding:0 0 0 15px
 }
-@media only screen and (max-width: 700px){
-    #experience-timeline:before,#experience-timeline:after{
-        left:23px
-    }
-    .vtimeline-date{
-        width:auto;
-        text-align:left;
-        position:relative;
-        margin-bottom:15px;
-        display:block;
-        margin-left:70px
-    }
-    .vtimeline-icon{
-        margin-left:0
-    }
-    .vtimeline-content{
-        margin-left:70px
-    }
-}
+
 @media only screen and (max-width: 992px){ 
 /* @media only screen and (max-width: 500px){  */
     /* #lead{
@@ -775,13 +778,25 @@ footer{
         font-size:1.75em
     } */
     #about{
-        text-align:center
+        text-align:center;
+        /* background-color: #d08674; */
     }
     #about p{
-        text-align:left
+        text-align:left;
+        margin-right: 50px;
     }
     .project-info h3{
         margin:0 0 0 0
+    }
+        .social2 li{
+        text-align: center;
+        display:inline-block;
+        font-size:2em;
+        list-style:none;
+        margin-inline: 5px;
+    }
+    .social2 ul{
+        padding-inline-start: 0px;
     }
 }
 @media only screen and (max-width: 800px){
@@ -796,6 +811,26 @@ footer{
     }
     #mobile-menu-open,#mobile-menu-close{
         display:block
+    }
+    .social2 li{
+        text-align: center;
+        display:inline-block;
+        font-size:2em;
+        list-style:none;
+        margin: 5px;
+    }
+    .social2 a{
+        padding: 0 0;
+    }
+    .social2 ul{
+        padding-inline-start: 0px;
+    }
+    /* #about{
+        background-color: #78fe8c;
+    } */
+    #about p{
+        text-align:left;
+        margin-right: 50px;
     }
     #menu{
         height:100%;
@@ -814,9 +849,9 @@ footer{
     #lead-content h2{
         font-size:1.8em
     }
-    #lead-content a{
+    /* #lead-content a{
         padding:10px 20px
-    }
+    } */
     #lead-down{
         display:none
     }
@@ -855,6 +890,19 @@ footer{
     }
 }
 @media only screen and (max-width: 400px){
+    .social2 li{
+        text-align: center;
+        display:inline-block;
+        font-size:1.5em;
+        list-style:none;
+        margin: 5px;
+    }
+    .social2 a{
+        padding: 0 0;
+    }
+    .social2 ul{
+        padding-inline-start: 0px;
+    }
     #lead-content h1{
         font-size:1.5em
     }
@@ -863,7 +911,7 @@ footer{
     }
     #lead-content a{
         font-size:0.9em;
-        padding:5px 10px
+        /* padding:5px 10px */
     }
 }
  
